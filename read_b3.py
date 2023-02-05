@@ -67,6 +67,6 @@ b3 = pd.read_fwf(file,
                  skiprows=1)[:-1]
 b3.columns = names
 
-# converte data do pregação para datetime
+# converte data do pregão para datetime
 b3['DATA_PREGAO'] = pd.to_datetime(b3['DATA_PREGAO'])
 
