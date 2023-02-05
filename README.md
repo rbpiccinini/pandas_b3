@@ -1,2 +1,2 @@
 # pandas_b3
-Read historical quote data from B3 market.
+Read historical quote data from B3 market and save it to pandas dataframes.
